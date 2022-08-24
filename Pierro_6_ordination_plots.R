@@ -1,8 +1,7 @@
 
 #exercise 6, in-class work 10/25
 
-#explore ordispider and orditorp for plant taxonomy and collection data from the Bernard field Station
-#examine species abundance and variation
+#make ordination plots with ordispider and orditorp to examine plant taxonomy, species abundance, and collection data from the Bernard field Station
 
 cover <- read.csv("./Data_Analysis/All_years_cover_data.csv")
 head(cover)
