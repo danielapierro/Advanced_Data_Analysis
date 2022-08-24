@@ -1,6 +1,9 @@
 
 #exercise 5 in-class 10/11/21
 
+# Multidimensional Scaling (MDS) and Non-metric Multidimensional Scaling (NMDS) methods 
+# optimization using several random starting places (metaMDS) vs. a single starting place (isoMDS, Kruskal's NMDS) 
+
 library(vegan)
 library(MASS)
 library(smacof)
