@@ -1,6 +1,8 @@
 #in-class Exercise 1 on 9/13/21
 #Daniela Pierro
 
+#following Shipley (p. 24-25), center a dataset and find axes that explain the most variation using the singular value decomposition (SVD)
+
 #first, install the packages car, rgl, and ggplot2
 
 set.seed(10) #initialize a random number generator
