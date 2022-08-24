@@ -1,5 +1,8 @@
 #in-class exercise: part I on 9/27/21
 
+# learn to implement a principal component analysis
+# graph using screeplot and biplot
+
 rawdata <- read.csv("BFnature_exercise3.csv") #import the file glopnet from Shipley
 head(rawdata)
 glopnet2 = rawdata[c(10,11,12,16)] #create new version of glopnet with columns 10,11,12,16
