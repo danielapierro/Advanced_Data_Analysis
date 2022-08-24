@@ -1,5 +1,8 @@
 #10/4/21: in-class exercise 3 part II, and exercise 4
 
+# calculate Manhattan distance, Euclidean distance, chord distance, and Bray-Curtis distance 
+# use PcOA and biplots to see how different distance measures affect distance matrices
+
 library(vegan)
 
 rawdata <- read.csv("BFnature_exercise3.csv") #import the file glopnet from Shipley
