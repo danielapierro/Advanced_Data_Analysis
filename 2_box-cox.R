@@ -1,5 +1,8 @@
 #in-class Exercise 2 on 9/20/21
 
+# evaluate assumptions of Box-Cox methods
+# calculate variance, covariance, and correlation coefficients
+
 #part I: assumptions
 
 library(datasets)
