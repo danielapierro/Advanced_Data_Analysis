@@ -1,5 +1,7 @@
 #exercise 7
-#PERMANOVA tests for differences between groups in multivariate data sets
+
+#use PERMANOVA to test for differences between groups in multivariate data sets
+
 library(vegan)
 library(RVAideMemoire)
 
