@@ -2,7 +2,7 @@
 #Dec 10, 2021
 #Dr. T
 #Advanced Data Analysis
-#Project: Examining Plant Community Composition during Fire Recovery the Bernard Field Station
+#Project Title: Examining Plant Community Composition during Fire Recovery at the Bernard Field Station
 
 # Examining data collected after the Bernard Field Station fire, comparing plant cover between treatments C and R: control, vs. removal of non-native plants.
 #note: github release omits the unpublished data.
