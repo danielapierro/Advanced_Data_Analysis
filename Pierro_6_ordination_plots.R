@@ -1,12 +1,15 @@
 
 #exercise 6, in-class work 10/25
 
-cover <- read.csv("/Users/danielapierro/Desktop/Pomona/Junior Year/Data_Analysis/All_years_cover_data.csv")
+#explore ordispider and orditorp for plant taxonomy and collection data from the Bernard field Station
+#examine species abundance and variation
+
+cover <- read.csv("./Data_Analysis/All_years_cover_data.csv")
 head(cover)
 
 cover= cover[c(1,3:27)] #omit column 2, with dates
 
-treats <- read.csv("/Users/danielapierro/Desktop/Pomona/Junior Year/Data_Analysis/treats.csv")
+treats <- read.csv("./Data_Analysis/treats.csv")
 head(treats)
 
 cover=merge(cover,treats,by=c("Block","Plot")) #merge the cover data file with the treatment group file by matching rows in the two dataframes.
