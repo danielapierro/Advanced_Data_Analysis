@@ -16,12 +16,12 @@ library(RVAideMemoire)
 #read the data files shared by Dr. T on Nov 30th, containing post-fire BFS plant coverage data.
 #all NA values were replaced with 0, all species columns with 0 total counts were removed, and the counts of species in each treatment group were aggregated into one sum number.
 #to limit the number of columns, we grouped species both taxonomically and by life history categories
-aggregated_data <- read.csv("/Users/danielapierro/Desktop/Pomona/Junior Year/Data_Analysis/BFS_project/Aggregated_BFS_cover_data.csv") #import aggregated numeric data with species grouped taxonomically
-categorized_data <- read.csv("/Users/danielapierro/Desktop/Pomona/Junior Year/Data_Analysis/BFS_project/BFS_cover_data.csv") #import aggregated numeric data with species grouped by life history categories
+aggregated_data <- read.csv("./BFS_project/Aggregated_BFS_cover_data.csv") #import aggregated numeric data with species grouped taxonomically
+categorized_data <- read.csv("./BFS_project/BFS_cover_data.csv") #import aggregated numeric data with species grouped by life history categories
 View(aggregated_data)
 View(categorized_data)
-#read the data file for Treatments shared by Dr. T
-treat <- read.csv("/Users/danielapierro/Desktop/Pomona/Junior Year/Data_Analysis/BFS_project/data/Treatments_corrected.csv") 
+#read the updated data file for corrected treatments shared by Dr. T
+treat <- read.csv("./BFS_project/data/Treatments_corrected.csv") 
 
 #remove the X column
 aggregated_data_subset <- subset(aggregated_data,select = -c(X))
